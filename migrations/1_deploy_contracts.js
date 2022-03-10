@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 var HoloNFT = artifacts.require("HoloNFT");
 var MorpheusMarket = artifacts.require("MorpheusMarket");
 
