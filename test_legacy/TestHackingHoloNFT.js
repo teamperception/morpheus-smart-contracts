@@ -1,4 +1,4 @@
-const HoloNFT = artifacts.require("./HoloNFT.sol");
+const HoloNFT = artifacts.require("HoloNFT");
 const truffleAssert = require('truffle-assertions');
 
 contract("TestHackingHoloNFT", accounts => {
