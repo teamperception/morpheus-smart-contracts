@@ -4,8 +4,5 @@
 .env
 
 node_modules
-
-package.json
-package-lock.json
 truffle-config.js
 build
