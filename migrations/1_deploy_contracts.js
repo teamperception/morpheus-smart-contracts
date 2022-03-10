@@ -1,7 +1,7 @@
 require('dotenv').config();
 
-var HoloNFT = artifacts.require(process.env.PATH_TO_HOLONFT_CONTRACTS + "HoloNFT.sol");
-var MorpheusMarket = artifacts.require(process.env.PATH_TO_HOLONFT_CONTRACTS + "MorpheusMarket.sol");
+var HoloNFT = artifacts.require("HoloNFT");
+var MorpheusMarket = artifacts.require("MorpheusMarket");
 
 module.exports = function(deployer) {
 

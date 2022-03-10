@@ -1,7 +1,7 @@
-const HoloNFT = artifacts.require("./HoloNFT.sol");
-const MorpheusMarket = artifacts.require("./MorpheusMarket.sol");
+const HoloNFT = artifacts.require("HoloNFT");
+const MorpheusMarket = artifacts.require("MorpheusMarket");
 const truffleAssert = require('truffle-assertions');
-const ReentrancyAttacker = artifacts.require("./TestContracts/ReentrancyAttacker.sol");
+const ReentrancyAttacker = artifacts.require("ReentrancyAttacker");
 
 
 
