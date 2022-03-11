@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
-import "../HoloNFTStore-contracts/HoloNFT.sol";
-import "../HoloNFTStore-contracts/MorpheusMarket.sol";
+import "../HoloNFT.sol";
+import "../MorpheusMarket.sol";
 
 contract TxOriginPhishingAttacker {
 
